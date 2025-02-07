@@ -1,0 +1,958 @@
+City_Name,City_ID,Type_ID,Type_Name
+Visakhapatnam,1,1,Beach Escapes
+Visakhapatnam,1,3,Cultural Hotspots
+Visakhapatnam,1,4,Historical Journeys
+Visakhapatnam,1,5,Natural Wonders
+Visakhapatnam,1,6,Adventure Activities
+Visakhapatnam,1,8,Spiritual Experiences
+Visakhapatnam,1,9,Festivals and Celebrations
+Visakhapatnam,1,10,Urban Nightlife
+Visakhapatnam,1,11,Culinary Adventures
+Visakhapatnam,1,13,Scenic Views
+Visakhapatnam,1,17,Family-Friendly Activities
+Vijayawada,2,3,Cultural Hotspots
+Vijayawada,2,4,Historical Journeys
+Vijayawada,2,5,Natural Wonders
+Vijayawada,2,9,Festivals and Celebrations
+Vijayawada,2,11,Culinary Adventures
+Vijayawada,2,12,Recreational Parks
+Vijayawada,2,13,Scenic Views
+Vijayawada,2,17,Family-Friendly Activities
+Guntur,3,1,Beach Escapes
+Guntur,3,2,Mountain Retreats
+Guntur,3,5,Natural Wonders
+Guntur,3,6,Adventure Activities
+Guntur,3,10,Urban Nightlife
+Guntur,3,12,Recreational Parks
+Tirupati,4,3,Cultural Hotspots
+Tirupati,4,4,Historical Journeys
+Tirupati,4,8,Spiritual Experiences
+Tirupati,4,11,Culinary Adventures
+Tirupati,4,17,Family-Friendly Activities
+Itanagar,5,5,Natural Wonders
+Itanagar,5,13,Scenic Views
+Itanagar,5,14,Cave Exploration
+Itanagar,5,15,Forest Activities
+Itanagar,5,8,Spiritual Experiences
+Tawang,6,2,Mountain Retreats
+Tawang,6,3,Cultural Hotspots
+Tawang,6,4,Historical Journeys
+Tawang,6,5,Natural Wonders
+Tawang,6,8,Spiritual Experiences
+Tawang,6,13,Scenic Views
+Tawang,6,14,Cave Exploration
+Tawang,6,15,Forest Activities
+Ziro,7,3,Cultural Hotspots
+Ziro,7,5,Natural Wonders
+Ziro,7,8,Spiritual Experiences
+Ziro,7,13,Scenic Views
+Ziro,7,15,Forest Activities
+Ziro,7,17,Family-Friendly Activities
+Guwahati,8,3,Cultural Hotspots
+Guwahati,8,4,Historical Journeys
+Guwahati,8,5,Natural Wonders
+Guwahati,8,8,Spiritual Experiences
+Guwahati,8,9,Festivals and Celebrations
+Guwahati,8,13,Scenic Views
+Guwahati,8,17,Family-Friendly Activities
+Shillong,10,3,Cultural Hotspots
+Shillong,10,4,Historical Journeys
+Shillong,10,5,Natural Wonders
+Shillong,10,7,Wildlife Encounters
+Shillong,10,8,Spiritual Experiences
+Shillong,10,12,Recreational Parks
+Shillong,10,13,Scenic Views
+Shillong,10,17,Family-Friendly Activities
+Tezpur,11,3,Cultural Hotspots
+Tezpur,11,4,Historical Journeys
+Tezpur,11,5,Natural Wonders
+Tezpur,11,7,Wildlife Encounters
+Tezpur,11,8,Spiritual Experiences
+Tezpur,11,12,Recreational Parks
+Tezpur,11,13,Scenic Views
+Tezpur,11,17,Family-Friendly Activities
+Patna,12,3,Cultural Hotspots
+Patna,12,4,Historical Journeys
+Patna,12,5,Natural Wonders
+Patna,12,8,Spiritual Experiences
+Patna,12,11,Culinary Adventures
+Patna,12,12,Recreational Parks
+Patna,12,13,Scenic Views
+Patna,12,17,Family-Friendly Activities
+Bodh Gaya,13,3,Cultural Hotspots
+Bodh Gaya,13,4,Historical Journeys
+Bodh Gaya,13,8,Spiritual Experiences
+Bodh Gaya,13,11,Culinary Adventures
+Bodh Gaya,13,12,Recreational Parks
+Bodh Gaya,13,13,Scenic Views
+Bodh Gaya,13,17,Family-Friendly Activities
+Nalanda,14,3,Cultural Hotspots
+Nalanda,14,4,Historical Journeys
+Nalanda,14,8,Spiritual Experiences
+Nalanda,14,11,Culinary Adventures
+Nalanda,14,12,Recreational Parks
+Nalanda,14,13,Scenic Views
+Nalanda,14,17,Family-Friendly Activities
+Rajgir,15,3,Cultural Hotspots
+Rajgir,15,4,Historical Journeys
+Rajgir,15,8,Spiritual Experiences
+Rajgir,15,11,Culinary Adventures
+Rajgir,15,12,Recreational Parks
+Rajgir,15,13,Scenic Views
+Rajgir,15,17,Family-Friendly Activities
+Raipur,16,3,Cultural Hotspots
+Raipur,16,4,Historical Journeys
+Raipur,16,11,Culinary Adventures
+Raipur,16,12,Recreational Parks
+Raipur,16,13,Scenic Views
+Raipur,16,17,Family-Friendly Activities
+Bhilai,17,3,Cultural Hotspots
+Bhilai,17,4,Historical Journeys
+Bhilai,17,5,Natural Wonders
+Bhilai,17,6,Adventure Activities
+Bhilai,17,7,Wildlife Encounters
+Bhilai,17,8,Spiritual Experiences
+Bhilai,17,9,Festivals and Celebrations
+Bhilai,17,10,Urban Nightlife
+Bhilai,17,11,Culinary Adventures
+Bhilai,17,12,Recreational Parks
+Bhilai,17,13,Scenic Views
+Bhilai,17,15,Forest Activities
+Bhilai,17,17,Family-Friendly Activities
+Durg,18,3,Cultural Hotspots
+Durg,18,4,Historical Journeys
+Durg,18,5,Natural Wonders
+Durg,18,6,Adventure Activities
+Durg,18,7,Wildlife Encounters
+Durg,18,11,Culinary Adventures
+Durg,18,12,Recreational Parks
+Durg,18,13,Scenic Views
+Durg,18,15,Forest Activities
+Durg,18,17,Family-Friendly Activities
+Bilaspur,19,3,Cultural Hotspots
+Bilaspur,19,4,Historical Journeys
+Bilaspur,19,5,Natural Wonders
+Bilaspur,19,6,Adventure Activities
+Bilaspur,19,7,Wildlife Encounters
+Bilaspur,19,8,Spiritual Experiences
+Bilaspur,19,9,Festivals and Celebrations
+Bilaspur,19,10,Urban Nightlife
+Bilaspur,19,11,Culinary Adventures
+Bilaspur,19,12,Recreational Parks
+Bilaspur,19,13,Scenic Views
+Bilaspur,19,15,Forest Activities
+Bilaspur,19,17,Family-Friendly Activities
+Panaji,20,1,Beach Escapes
+Panaji,20,3,Cultural Hotspots
+Panaji,20,4,Historical Journeys
+Panaji,20,5,Natural Wonders
+Panaji,20,6,Adventure Activities
+Panaji,20,7,Wildlife Encounters
+Panaji,20,8,Spiritual Experiences
+Panaji,20,9,Festivals and Celebrations
+Panaji,20,10,Urban Nightlife
+Panaji,20,11,Culinary Adventures
+Panaji,20,12,Recreational Parks
+Panaji,20,13,Scenic Views
+Panaji,20,15,Forest Activities
+Panaji,20,17,Family-Friendly Activities
+Vasco da Gama,21,1,Beach Escapes
+Vasco da Gama,21,3,Cultural Hotspots
+Vasco da Gama,21,4,Historical Journeys
+Vasco da Gama,21,5,Natural Wonders
+Vasco da Gama,21,6,Adventure Activities
+Vasco da Gama,21,9,Festivals and Celebrations
+Vasco da Gama,21,10,Urban Nightlife
+Vasco da Gama,21,11,Culinary Adventures
+Vasco da Gama,21,12,Recreational Parks
+Vasco da Gama,21,17,Family-Friendly Activities
+Old Goa,22,1,Beach Escapes
+Old Goa,22,3,Cultural Hotspots
+Old Goa,22,4,Historical Journeys
+Old Goa,22,5,Natural Wonders
+Old Goa,22,8,Spiritual Experiences
+Old Goa,22,9,Festivals and Celebrations
+Old Goa,22,11,Culinary Adventures
+Old Goa,22,12,Recreational Parks
+Old Goa,22,17,Family-Friendly Activities
+Ahmedabad,23,3,Cultural Hotspots
+Ahmedabad,23,4,Historical Journeys
+Ahmedabad,23,10,Urban Nightlife
+Ahmedabad,23,11,Culinary Adventures
+Ahmedabad,23,12,Recreational Parks
+Ahmedabad,23,17,Family-Friendly Activities
+Vadodara,24,3,Cultural Hotspots
+Vadodara,24,4,Historical Journeys
+Vadodara,24,10,Urban Nightlife
+Vadodara,24,11,Culinary Adventures
+Vadodara,24,12,Recreational Parks
+Vadodara,24,17,Family-Friendly Activities
+Surat,25,3,Cultural Hotspots
+Surat,25,4,Historical Journeys
+Surat,25,10,Urban Nightlife
+Surat,25,11,Culinary Adventures
+Surat,25,12,Recreational Parks
+Surat,25,17,Family-Friendly Activities
+Gandhinagar,26,3,Cultural Hotspots
+Gandhinagar,26,4,Historical Journeys
+Gandhinagar,26,10,Urban Nightlife
+Gandhinagar,26,11,Culinary Adventures
+Gandhinagar,26,12,Recreational Parks
+Gandhinagar,26,17,Family-Friendly Activities
+Gurgaon,27,3,Cultural Hotspots
+Gurgaon,27,10,Urban Nightlife
+Gurgaon,27,11,Culinary Adventures
+Gurgaon,27,12,Recreational Parks
+Gurgaon,27,17,Family-Friendly Activities
+Faridabad,28,3,Cultural Hotspots
+Faridabad,28,4,Historical Journeys
+Faridabad,28,10,Urban Nightlife
+Faridabad,28,11,Culinary Adventures
+Faridabad,28,12,Recreational Parks
+Faridabad,28,17,Family-Friendly Activities
+Panipat,29,3,Cultural Hotspots
+Panipat,29,4,Historical Journeys
+Panipat,29,9,Festivals and Celebrations
+Panipat,29,11,Culinary Adventures
+Panipat,29,17,Family-Friendly Activities
+Simla,30,3,Cultural Hotspots
+Simla,30,4,Historical Journeys
+Simla,30,5,Natural Wonders
+Simla,30,12,Recreational Parks
+Simla,30,13,Scenic Views
+Simla,30,17,Family-Friendly Activities
+Manali,31,2,Mountain Retreats
+Manali,31,3,Cultural Hotspots
+Manali,31,4,Historical Journeys
+Manali,31,5,Natural Wonders
+Manali,31,6,Adventure Activities
+Manali,31,8,Spiritual Experiences
+Manali,31,9,Festivals and Celebrations
+Manali,31,11,Culinary Adventures
+Manali,31,12,Recreational Parks
+Manali,31,17,Family-Friendly Activities
+Dharamshala,32,3,Cultural Hotspots
+Dharamshala,32,4,Historical Journeys
+Dharamshala,32,5,Natural Wonders
+Dharamshala,32,6,Adventure Activities
+Dharamshala,32,8,Spiritual Experiences
+Dharamshala,32,9,Festivals and Celebrations
+Dharamshala,32,11,Culinary Adventures
+Dharamshala,32,12,Recreational Parks
+Dharamshala,32,17,Family-Friendly Activities
+Kullu,33,2,Mountain Retreats
+Kullu,33,3,Cultural Hotspots
+Kullu,33,4,Historical Journeys
+Kullu,33,5,Natural Wonders
+Kullu,33,6,Adventure Activities
+Kullu,33,8,Spiritual Experiences
+Kullu,33,9,Festivals and Celebrations
+Kullu,33,11,Culinary Adventures
+Kullu,33,12,Recreational Parks
+Kullu,33,17,Family-Friendly Activities
+Srinagar,34,3,Cultural Hotspots
+Srinagar,34,4,Historical Journeys
+Srinagar,34,5,Natural Wonders
+Srinagar,34,6,Adventure Activities
+Srinagar,34,8,Spiritual Experiences
+Srinagar,34,9,Festivals and Celebrations
+Srinagar,34,11,Culinary Adventures
+Srinagar,34,12,Recreational Parks
+Srinagar,34,17,Family-Friendly Activities
+Jammu,35,3,Cultural Hotspots
+Jammu,35,4,Historical Journeys
+Jammu,35,5,Natural Wonders
+Jammu,35,8,Spiritual Experiences
+Jammu,35,9,Festivals and Celebrations
+Jammu,35,11,Culinary Adventures
+Jammu,35,12,Recreational Parks
+Jammu,35,17,Family-Friendly Activities
+Leh,36,2,Mountain Retreats
+Leh,36,3,Cultural Hotspots
+Leh,36,4,Historical Journeys
+Leh,36,5,Natural Wonders
+Leh,36,6,Adventure Activities
+Leh,36,8,Spiritual Experiences
+Leh,36,9,Festivals and Celebrations
+Leh,36,11,Culinary Adventures
+Leh,36,13,Scenic Views
+Leh,36,17,Family-Friendly Activities
+Gulmarg,37,2,Mountain Retreats
+Gulmarg,37,5,Natural Wonders
+Gulmarg,37,6,Adventure Activities
+Gulmarg,37,8,Spiritual Experiences
+Gulmarg,37,11,Culinary Adventures
+Gulmarg,37,12,Recreational Parks
+Gulmarg,37,13,Scenic Views
+Gulmarg,37,17,Family-Friendly Activities
+Ranchi,38,3,Cultural Hotspots
+Ranchi,38,4,Historical Journeys
+Ranchi,38,5,Natural Wonders
+Ranchi,38,6,Adventure Activities
+Ranchi,38,8,Spiritual Experiences
+Ranchi,38,9,Festivals and Celebrations
+Ranchi,38,11,Culinary Adventures
+Ranchi,38,12,Recreational Parks
+Ranchi,38,13,Scenic Views
+Ranchi,38,17,Family-Friendly Activities
+Jamshedpur,39,3,Cultural Hotspots
+Jamshedpur,39,4,Historical Journeys
+Jamshedpur,39,5,Natural Wonders
+Jamshedpur,39,6,Adventure Activities
+Jamshedpur,39,8,Spiritual Experiences
+Jamshedpur,39,9,Festivals and Celebrations
+Jamshedpur,39,11,Culinary Adventures
+Jamshedpur,39,12,Recreational Parks
+Jamshedpur,39,13,Scenic Views
+Jamshedpur,39,17,Family-Friendly Activities
+Dhanbad,40,3,Cultural Hotspots
+Dhanbad,40,4,Historical Journeys
+Dhanbad,40,5,Natural Wonders
+Dhanbad,40,6,Adventure Activities
+Dhanbad,40,8,Spiritual Experiences
+Dhanbad,40,9,Festivals and Celebrations
+Dhanbad,40,11,Culinary Adventures
+Dhanbad,40,12,Recreational Parks
+Dhanbad,40,13,Scenic Views
+Dhanbad,40,17,Family-Friendly Activities
+Bengaluru,41,3,Cultural Hotspots
+Bengaluru,41,4,Historical Journeys
+Bengaluru,41,5,Natural Wonders
+Bengaluru,41,6,Adventure Activities
+Bengaluru,41,8,Spiritual Experiences
+Bengaluru,41,9,Festivals and Celebrations
+Bengaluru,41,11,Culinary Adventures
+Bengaluru,41,12,Recreational Parks
+Bengaluru,41,13,Scenic Views
+Bengaluru,41,17,Family-Friendly Activities
+Mysore,42,3,Cultural Hotspots
+Mysore,42,4,Historical Journeys
+Mysore,42,5,Natural Wonders
+Mysore,42,6,Adventure Activities
+Mysore,42,8,Spiritual Experiences
+Mysore,42,9,Festivals and Celebrations
+Mysore,42,11,Culinary Adventures
+Mysore,42,12,Recreational Parks
+Mysore,42,13,Scenic Views
+Mysore,42,17,Family-Friendly Activities
+Mangalore,43,3,Cultural Hotspots
+Mangalore,43,4,Historical Journeys
+Mangalore,43,5,Natural Wonders
+Mangalore,43,6,Adventure Activities
+Mangalore,43,8,Spiritual Experiences
+Mangalore,43,9,Festivals and Celebrations
+Mangalore,43,11,Culinary Adventures
+Mangalore,43,12,Recreational Parks
+Mangalore,43,13,Scenic Views
+Mangalore,43,17,Family-Friendly Activities
+Hampi,44,3,Cultural Hotspots
+Hampi,44,4,Historical Journeys
+Hampi,44,5,Natural Wonders
+Hampi,44,8,Spiritual Experiences
+Hampi,44,9,Festivals and Celebrations
+Hampi,44,13,Scenic Views
+Kochi,45,1,Beach Escapes
+Kochi,45,5,Natural Wonders
+Kochi,45,7,Wildlife Encounters
+Kochi,45,8,Spiritual Experiences
+Kochi,45,9,Festivals and Celebrations
+Kochi,45,11,Culinary Adventures
+Kochi,45,12,Recreational Parks
+Kochi,45,13,Scenic Views
+Kochi,45,16,Aquatic Adventures
+Thiruvananthapuram,46,1,Beach Escapes
+Thiruvananthapuram,46,5,Natural Wonders
+Thiruvananthapuram,46,7,Wildlife Encounters
+Thiruvananthapuram,46,8,Spiritual Experiences
+Thiruvananthapuram,46,9,Festivals and Celebrations
+Thiruvananthapuram,46,11,Culinary Adventures
+Thiruvananthapuram,46,12,Recreational Parks
+Thiruvananthapuram,46,13,Scenic Views
+Thiruvananthapuram,46,16,Aquatic Adventures
+Kozhikode,47,1,Beach Escapes
+Kozhikode,47,5,Natural Wonders
+Kozhikode,47,8,Spiritual Experiences
+Kozhikode,47,9,Festivals and Celebrations
+Kozhikode,47,11,Culinary Adventures
+Kozhikode,47,12,Recreational Parks
+Kozhikode,47,13,Scenic Views
+Kozhikode,47,15,Forest Activities
+Munnar,48,2,Mountain Retreats
+Munnar,48,5,Natural Wonders
+Munnar,48,6,Adventure Activities
+Munnar,48,7,Wildlife Encounters
+Munnar,48,13,Scenic Views
+Munnar,48,15,Forest Activities
+Bhopal,49,3,Cultural Hotspots
+Bhopal,49,4,Historical Journeys
+Bhopal,49,5,Natural Wonders
+Bhopal,49,6,Adventure Activities
+Bhopal,49,7,Wildlife Encounters
+Bhopal,49,13,Scenic Views
+Bhopal,49,15,Forest Activities
+Bhopal,49,17,Family-Friendly Activities
+Indore,50,3,Cultural Hotspots
+Indore,50,4,Historical Journeys
+Indore,50,9,Festivals and Celebrations
+Indore,50,11,Culinary Adventures
+Indore,50,12,Recreational Parks
+Indore,50,13,Scenic Views
+Indore,50,15,Forest Activities
+Indore,50,17,Family-Friendly Activities
+Gwalior,51,3,Cultural Hotspots
+Gwalior,51,4,Historical Journeys
+Gwalior,51,5,Natural Wonders
+Gwalior,51,6,Adventure Activities
+Gwalior,51,8,Spiritual Experiences
+Gwalior,51,9,Festivals and Celebrations
+Gwalior,51,12,Recreational Parks
+Gwalior,51,13,Scenic Views
+Gwalior,51,15,Forest Activities
+Gwalior,51,17,Family-Friendly Activities
+Jabalpur,52,2,Mountain Retreats
+Jabalpur,52,4,Historical Journeys
+Jabalpur,52,5,Natural Wonders
+Jabalpur,52,6,Adventure Activities
+Jabalpur,52,7,Wildlife Encounters
+Jabalpur,52,13,Scenic Views
+Jabalpur,52,15,Forest Activities
+Jabalpur,52,17,Family-Friendly Activities
+Mumbai,53,1,Beach Escapes
+Mumbai,53,2,Mountain Retreats
+Mumbai,53,3,Cultural Hotspots
+Mumbai,53,5,Natural Wonders
+Mumbai,53,6,Adventure Activities
+Mumbai,53,9,Festivals and Celebrations
+Mumbai,53,11,Culinary Adventures
+Mumbai,53,12,Recreational Parks
+Mumbai,53,13,Scenic Views
+Mumbai,53,14,Cave Exploration
+Pune,54,1,Beach Escapes
+Pune,54,3,Cultural Hotspots
+Pune,54,4,Historical Journeys
+Pune,54,5,Natural Wonders
+Pune,54,6,Adventure Activities
+Pune,54,8,Spiritual Experiences
+Pune,54,9,Festivals and Celebrations
+Pune,54,11,Culinary Adventures
+Pune,54,12,Recreational Parks
+Pune,54,13,Scenic Views
+Pune,54,17,Family-Friendly Activities
+Nagpur,55,2,Mountain Retreats
+Nagpur,55,3,Cultural Hotspots
+Nagpur,55,4,Historical Journeys
+Nagpur,55,5,Natural Wonders
+Nagpur,55,6,Adventure Activities
+Nagpur,55,7,Wildlife Encounters
+Nagpur,55,9,Festivals and Celebrations
+Nagpur,55,10,Urban Nightlife
+Nagpur,55,11,Culinary Adventures
+Nagpur,55,12,Recreational Parks
+Nagpur,55,13,Scenic Views
+Aurangabad,56,4,Historical Journeys
+Aurangabad,56,5,Natural Wonders
+Aurangabad,56,6,Adventure Activities
+Aurangabad,56,7,Wildlife Encounters
+Aurangabad,56,8,Spiritual Experiences
+Aurangabad,56,9,Festivals and Celebrations
+Aurangabad,56,10,Urban Nightlife
+Aurangabad,56,11,Culinary Adventures
+Aurangabad,56,12,Recreational Parks
+Aurangabad,56,13,Scenic Views
+Imphal,57,3,Cultural Hotspots
+Imphal,57,5,Natural Wonders
+Imphal,57,6,Adventure Activities
+Imphal,57,8,Spiritual Experiences
+Imphal,57,9,Festivals and Celebrations
+Imphal,57,12,Recreational Parks
+Imphal,57,13,Scenic Views
+Imphal,57,17,Family-Friendly Activities
+Loktak Lake,58,3,Cultural Hotspots
+Loktak Lake,58,5,Natural Wonders
+Loktak Lake,58,6,Adventure Activities
+Loktak Lake,58,8,Spiritual Experiences
+Loktak Lake,58,9,Festivals and Celebrations
+Loktak Lake,58,12,Recreational Parks
+Loktak Lake,58,13,Scenic Views
+Loktak Lake,58,17,Family-Friendly Activities
+Aizawl,59,3,Cultural Hotspots
+Aizawl,59,5,Natural Wonders
+Aizawl,59,6,Adventure Activities
+Aizawl,59,7,Wildlife Encounters
+Aizawl,59,8,Spiritual Experiences
+Aizawl,59,9,Festivals and Celebrations
+Aizawl,59,12,Recreational Parks
+Aizawl,59,13,Scenic Views
+Aizawl,59,17,Family-Friendly Activities
+Lunglei,60,3,Cultural Hotspots
+Lunglei,60,5,Natural Wonders
+Lunglei,60,6,Adventure Activities
+Lunglei,60,7,Wildlife Encounters
+Lunglei,60,8,Spiritual Experiences
+Lunglei,60,9,Festivals and Celebrations
+Lunglei,60,12,Recreational Parks
+Lunglei,60,13,Scenic Views
+Lunglei,60,17,Family-Friendly Activities
+Kohima,61,3,Cultural Hotspots
+Kohima,61,4,Historical Journeys
+Kohima,61,5,Natural Wonders
+Kohima,61,6,Adventure Activities
+Kohima,61,7,Wildlife Encounters
+Kohima,61,8,Spiritual Experiences
+Kohima,61,9,Festivals and Celebrations
+Kohima,61,11,Culinary Adventures
+Kohima,61,12,Recreational Parks
+Kohima,61,13,Scenic Views
+Kohima,61,16,Aquatic Adventures
+Kohima,61,17,Family-Friendly Activities
+Dimapur,62,3,Cultural Hotspots
+Dimapur,62,4,Historical Journeys
+Dimapur,62,5,Natural Wonders
+Dimapur,62,6,Adventure Activities
+Dimapur,62,8,Spiritual Experiences
+Dimapur,62,9,Festivals and Celebrations
+Dimapur,62,11,Culinary Adventures
+Dimapur,62,12,Recreational Parks
+Dimapur,62,13,Scenic Views
+Dimapur,62,16, Aquatic Adventures
+Dimapur,62,17,Family-Friendly Activities
+Bhubaneswar,63,3,Cultural Hotspots
+Bhubaneswar,63,4,Historical Journeys
+Bhubaneswar,63,5,Natural Wonders
+Bhubaneswar,63,6,Adventure Activities
+Bhubaneswar,63,8,Spiritual Experiences
+Bhubaneswar,63,9,Festivals and Celebrations
+Bhubaneswar,63,11,Culinary Adventures
+Bhubaneswar,63,12,Recreational Parks
+Bhubaneswar,63,13,Scenic Views
+Bhubaneswar,63,17,Family-Friendly Activities
+Puri,64,3,Cultural Hotspots
+Puri,64,4,Historical Journeys
+Puri,64,5,Natural Wonders
+Puri,64,6,Adventure Activities
+Puri,64,8,Spiritual Experiences
+Puri,64,9,Festivals and Celebrations
+Puri,64,11,Culinary Adventures
+Puri,64,12,Recreational Parks
+Puri,64,13,Scenic Views
+Puri,64,17,Family-Friendly Activities
+Konark,65,3,Cultural Hotspots
+Konark,65,4,Historical Journeys
+Konark,65,5,Natural Wonders
+Konark,65,6,Adventure Activities
+Konark,65,8,Spiritual Experiences
+Konark,65,9,Festivals and Celebrations
+Konark,65,11,Culinary Adventures
+Konark,65,12,Recreational Parks
+Konark,65,13,Scenic Views
+Konark,65,17,Family-Friendly Activities
+Cuttack,66,3,Cultural Hotspots
+Cuttack,66,4,Historical Journeys
+Cuttack,66,5,Natural Wonders
+Cuttack,66,6,Adventure Activities
+Cuttack,66,8,Spiritual Experiences
+Cuttack,66,9,Festivals and Celebrations
+Cuttack,66,11,Culinary Adventures
+Cuttack,66,12,Recreational Parks
+Cuttack,66,13,Scenic Views
+Cuttack,66,17,Family-Friendly Activities
+Chandigarh,67,3,Cultural Hotspots
+Chandigarh,67,4,Historical Journeys
+Chandigarh,67,5,Natural Wonders
+Chandigarh,67,6,Adventure Activities
+Chandigarh,67,8,Spiritual Experiences
+Chandigarh,67,9,Festivals and Celebrations
+Chandigarh,67,11,Culinary Adventures
+Chandigarh,67,12,Recreational Parks
+Chandigarh,67,13,Scenic Views
+Chandigarh,67,17,Family-Friendly Activities
+Amritsar,68,3,Cultural Hotspots
+Amritsar,68,4,Historical Journeys
+Amritsar,68,5,Natural Wonders
+Amritsar,68,6,Adventure Activities
+Amritsar,68,8,Spiritual Experiences
+Amritsar,68,9,Festivals and Celebrations
+Amritsar,68,11,Culinary Adventures
+Amritsar,68,12,Recreational Parks
+Amritsar,68,13,Scenic Views
+Amritsar,68,17,Family-Friendly Activities
+Ludhiana,69,3,Cultural Hotspots
+Ludhiana,69,4,Historical Journeys
+Ludhiana,69,5,Natural Wonders
+Ludhiana,69,6,Adventure Activities
+Ludhiana,69,8,Spiritual Experiences
+Ludhiana,69,9,Festivals and Celebrations
+Ludhiana,69,11,Culinary Adventures
+Ludhiana,69,12,Recreational Parks
+Ludhiana,69,13,Scenic Views
+Ludhiana,69,17,Family-Friendly Activities
+Patiala,70,3,Cultural Hotspots
+Patiala,70,4,Historical Journeys
+Patiala,70,5,Natural Wonders
+Patiala,70,6,Adventure Activities
+Patiala,70,8,Spiritual Experiences
+Patiala,70,9,Festivals and Celebrations
+Patiala,70,11,Culinary Adventures
+Patiala,70,12,Recreational Parks
+Patiala,70,13,Scenic Views
+Patiala,70,17,Family-Friendly Activities
+Jaipur,71,3,Cultural Hotspots
+Jaipur,71,4,Historical Journeys
+Jaipur,71,5,Natural Wonders
+Jaipur,71,6,Adventure Activities
+Jaipur,71,8,Spiritual Experiences
+Jaipur,71,9,Festivals and Celebrations
+Jaipur,71,11,Culinary Adventures
+Jaipur,71,12,Recreational Parks
+Jaipur,71,13,Scenic Views
+Jaipur,71,17,Family-Friendly Activities
+Jodhpur,72,3,Cultural Hotspots
+Jodhpur,72,4,Historical Journeys
+Jodhpur,72,5,Natural Wonders
+Jodhpur,72,6,Adventure Activities
+Jodhpur,72,8,Spiritual Experiences
+Jodhpur,72,9,Festivals and Celebrations
+Jodhpur,72,11,Culinary Adventures
+Jodhpur,72,12,Recreational Parks
+Jodhpur,72,13,Scenic Views
+Jodhpur,72,17,Family-Friendly Activities
+Udaipur,73,3,Cultural Hotspots
+Udaipur,73,4,Historical Journeys
+Udaipur,73,5,Natural Wonders
+Udaipur,73,6,Adventure Activities
+Udaipur,73,8,Spiritual Experiences
+Udaipur,73,9,Festivals and Celebrations
+Udaipur,73,11,Culinary Adventures
+Udaipur,73,12,Recreational Parks
+Udaipur,73,13,Scenic Views
+Udaipur,73,17,Family-Friendly Activities
+Jaisalmer,74,3,Cultural Hotspots
+Jaisalmer,74,4,Historical Journeys
+Jaisalmer,74,5,Natural Wonders
+Jaisalmer,74,6,Adventure Activities
+Jaisalmer,74,8,Spiritual Experiences
+Jaisalmer,74,9,Festivals and Celebrations
+Jaisalmer,74,11,Culinary Adventures
+Jaisalmer,74,12,Recreational Parks
+Jaisalmer,74,13,Scenic Views
+Jaisalmer,74,17,Family-Friendly Activities
+Gangtok,75,3,Cultural Hotspots
+Gangtok,75,4,Historical Journeys
+Gangtok,75,5,Natural Wonders
+Gangtok,75,6,Adventure Activities
+Gangtok,75,8,Spiritual Experiences
+Gangtok,75,9,Festivals and Celebrations
+Gangtok,75,11,Culinary Adventures
+Gangtok,75,12,Recreational Parks
+Gangtok,75,13,Scenic Views
+Gangtok,75,17,Family-Friendly Activities
+Pelling,76,3,Cultural Hotspots
+Pelling,76,4,Historical Journeys
+Pelling,76,5,Natural Wonders
+Pelling,76,6,Adventure Activities
+Pelling,76,8,Spiritual Experiences
+Pelling,76,9,Festivals and Celebrations
+Pelling,76,11,Culinary Adventures
+Pelling,76,12,Recreational Parks
+Pelling,76,13,Scenic Views
+Pelling,76,17,Family-Friendly Activities
+Lachung,77,3,Cultural Hotspots
+Lachung,77,4,Historical Journeys
+Lachung,77,5,Natural Wonders
+Lachung,77,6,Adventure Activities
+Lachung,77,7,Wildlife Encounters
+Lachung,77,8,Spiritual Experiences
+Lachung,77,9,Festivals and Celebrations
+Lachung,77,11,Culinary Adventures
+Lachung,77,12,Recreational Parks
+Lachung,77,13,Scenic Views
+Lachung,77,15,Forest Activities
+Lachung,77,16,Aquatic Adventures
+Chennai,78,3,Cultural Hotspots
+Chennai,78,4,Historical Journeys
+Chennai,78,5,Natural Wonders
+Chennai,78,6,Adventure Activities
+Chennai,78,7,Wildlife Encounters
+Chennai,78,8,Spiritual Experiences
+Chennai,78,9,Festivals and Celebrations
+Chennai,78,11,Culinary Adventures
+Chennai,78,12,Recreational Parks
+Chennai,78,13,Scenic Views
+Chennai,78,16,Aquatic Adventures
+Madurai,79,3,Cultural Hotspots
+Madurai,79,4,Historical Journeys
+Madurai,79,5,Natural Wonders
+Madurai,79,6,Adventure Activities
+Madurai,79,7,Wildlife Encounters
+Madurai,79,8,Spiritual Experiences
+Madurai,79,9,Festivals and Celebrations
+Madurai,79,10,Urban Nightlife
+Madurai,79,11,Culinary Adventures
+Madurai,79,12,Recreational Parks
+Madurai,79,13,Scenic Views
+Madurai,79,17,Family-Friendly Activities
+Coimbatore,80,3,Cultural Hotspots
+Coimbatore,80,4,Historical Journeys
+Coimbatore,80,5,Natural Wonders
+Coimbatore,80,6,Adventure Activities
+Coimbatore,80,7,Wildlife Encounters
+Coimbatore,80,8,Spiritual Experiences
+Coimbatore,80,9,Festivals and Celebrations
+Coimbatore,80,10,Urban Nightlife
+Coimbatore,80,11,Culinary Adventures
+Coimbatore,80,12,Recreational Parks
+Coimbatore,80,13,Scenic Views
+Coimbatore,80,17,Family-Friendly Activities
+Ooty,81,3,Cultural Hotspots
+Ooty,81,4,Historical Journeys
+Ooty,81,5,Natural Wonders
+Ooty,81,6,Adventure Activities
+Ooty,81,7,Wildlife Encounters
+Ooty,81,8,Spiritual Experiences
+Ooty,81,9,Festivals and Celebrations
+Ooty,81,11,Culinary Adventures
+Ooty,81,12,Recreational Parks
+Ooty,81,13,Scenic Views
+Ooty,81,16,Aquatic Adventures
+Ooty,81,17,Family-Friendly Activities
+Warangal,82,3,Cultural Hotspots
+Warangal,82,4,Historical Journeys
+Warangal,82,5,Natural Wonders
+Warangal,82,6,Adventure Activities
+Warangal,82,8,Spiritual Experiences
+Warangal,82,9,Festivals and Celebrations
+Warangal,82,11,Culinary Adventures
+Warangal,82,12,Recreational Parks
+Warangal,82,13,Scenic Views
+Warangal,82,16,Aquatic Adventures
+Warangal,82,17,Family-Friendly Activities
+Hyderabad,83,3,Cultural Hotspots
+Hyderabad,83,4,Historical Journeys
+Hyderabad,83,5,Natural Wonders
+Hyderabad,83,6,Adventure Activities
+Hyderabad,83,8,Spiritual Experiences
+Hyderabad,83,9,Festivals and Celebrations
+Hyderabad,83,11,Culinary Adventures
+Hyderabad,83,12,Recreational Parks
+Hyderabad,83,13,Scenic Views
+Hyderabad,83,16,Aquatic Adventures
+Hyderabad,83,17,Family-Friendly Activities
+Agartala,84,3,Cultural Hotspots
+Agartala,84,4,Historical Journeys
+Agartala,84,5,Natural Wonders
+Agartala,84,6,Adventure Activities
+Agartala,84,7,Wildlife Encounters
+Agartala,84,8,Spiritual Experiences
+Agartala,84,9,Festivals and Celebrations
+Agartala,84,11,Culinary Adventures
+Agartala,84,12,Recreational Parks
+Agartala,84,13,Scenic Views
+Agartala,84,17,Family-Friendly Activities
+Udaipur,85,3,Cultural Hotspots
+Udaipur,85,4,Historical Journeys
+Udaipur,85,5,Natural Wonders
+Udaipur,85,6,Adventure Activities
+Udaipur,85,7,Wildlife Encounters
+Udaipur,85,8,Spiritual Experiences
+Udaipur,85,9,Festivals and Celebrations
+Udaipur,85,11,Culinary Adventures
+Udaipur,85,12,Recreational Parks
+Udaipur,85,13,Scenic Views
+Udaipur,85,17,Family-Friendly Activities
+Dehradun,86,3,Cultural Hotspots
+Dehradun,86,4,Historical Journeys
+Dehradun,86,5,Natural Wonders
+Dehradun,86,6,Adventure Activities
+Dehradun,86,7,Wildlife Encounters
+Dehradun,86,8,Spiritual Experiences
+Dehradun,86,9,Festivals and Celebrations
+Dehradun,86,11,Culinary Adventures
+Dehradun,86,12,Recreational Parks
+Dehradun,86,13,Scenic Views
+Dehradun,86,17,Family-Friendly Activities
+Rishikesh,87,3,Cultural Hotspots
+Rishikesh,87,4,Historical Journeys
+Rishikesh,87,5,Natural Wonders
+Rishikesh,87,6,Adventure Activities
+Rishikesh,87,7,Wildlife Encounters
+Rishikesh,87,8,Spiritual Experiences
+Rishikesh,87,9,Festivals and Celebrations
+Rishikesh,87,11,Culinary Adventures
+Rishikesh,87,12,Recreational Parks
+Rishikesh,87,13,Scenic Views
+Rishikesh,87,17,Family-Friendly Activities
+Haridwar,88,3,Cultural Hotspots
+Haridwar,88,4,Historical Journeys
+Haridwar,88,5,Natural Wonders
+Haridwar,88,6,Adventure Activities
+Haridwar,88,7,Wildlife Encounters
+Haridwar,88,8,Spiritual Experiences
+Haridwar,88,9,Festivals and Celebrations
+Haridwar,88,11,Culinary Adventures
+Haridwar,88,12,Recreational Parks
+Haridwar,88,13,Scenic Views
+Haridwar,88,17,Family-Friendly Activities
+Mussoorie,89,3,Cultural Hotspots
+Mussoorie,89,4,Historical Journeys
+Mussoorie,89,5,Natural Wonders
+Mussoorie,89,6,Adventure Activities
+Mussoorie,89,7,Wildlife Encounters
+Mussoorie,89,8,Spiritual Experiences
+Mussoorie,89,9,Festivals and Celebrations
+Mussoorie,89,11,Culinary Adventures
+Mussoorie,89,12,Recreational Parks
+Mussoorie,89,13,Scenic Views
+Mussoorie,89,17,Family-Friendly Activities
+Lucknow,90,3,Cultural Hotspots
+Lucknow,90,4,Historical Journeys
+Lucknow,90,5,Natural Wonders
+Lucknow,90,6,Adventure Activities
+Lucknow,90,8,Spiritual Experiences
+Lucknow,90,9,Festivals and Celebrations
+Lucknow,90,11,Culinary Adventures
+Lucknow,90,12,Recreational Parks
+Lucknow,90,13,Scenic Views
+Lucknow,90,17,Family-Friendly Activities
+Varanasi,91,3,Cultural Hotspots
+Varanasi,91,4,Historical Journeys
+Varanasi,91,5,Natural Wonders
+Varanasi,91,6,Adventure Activities
+Varanasi,91,8,Spiritual Experiences
+Varanasi,91,9,Festivals and Celebrations
+Varanasi,91,11,Culinary Adventures
+Varanasi,91,12,Recreational Parks
+Varanasi,91,13,Scenic Views
+Varanasi,91,17,Family-Friendly Activities
+Agra,92,3,Cultural Hotspots
+Agra,92,4,Historical Journeys
+Agra,92,5,Natural Wonders
+Agra,92,6,Adventure Activities
+Agra,92,8,Spiritual Experiences
+Agra,92,9,Festivals and Celebrations
+Agra,92,11,Culinary Adventures
+Agra,92,12,Recreational Parks
+Agra,92,13,Scenic Views
+Agra,92,17,Family-Friendly Activities
+Kanpur,93,3,Cultural Hotspots
+Kanpur,93,4,Historical Journeys
+Kanpur,93,5,Natural Wonders
+Kanpur,93,6,Adventure Activities
+Kanpur,93,8,Spiritual Experiences
+Kanpur,93,9,Festivals and Celebrations
+Kanpur,93,11,Culinary Adventures
+Kanpur,93,12,Recreational Parks
+Kanpur,93,13,Scenic Views
+Kanpur,93,17,Family-Friendly Activities
+Kolkata,94,3,Cultural Hotspots
+Kolkata,94,4,Historical Journeys
+Kolkata,94,5,Natural Wonders
+Kolkata,94,6,Adventure Activities
+Kolkata,94,8,Spiritual Experiences
+Kolkata,94,9,Festivals and Celebrations
+Kolkata,94,11,Culinary Adventures
+Kolkata,94,12,Recreational Parks
+Kolkata,94,13,Scenic Views
+Kolkata,94,17,Family-Friendly Activities
+Darjeeling,95,3,Cultural Hotspots
+Darjeeling,95,4,Historical Journeys
+Darjeeling,95,5,Natural Wonders
+Darjeeling,95,6,Adventure Activities
+Darjeeling,95,7,Wildlife Encounters
+Darjeeling,95,8,Spiritual Experiences
+Darjeeling,95,9,Festivals and Celebrations
+Darjeeling,95,11,Culinary Adventures
+Darjeeling,95,12,Recreational Parks
+Darjeeling,95,13,Scenic Views
+Darjeeling,95,17,Family-Friendly Activities
+Siliguri,96,3,Cultural Hotspots
+Siliguri,96,4,Historical Journeys
+Siliguri,96,5,Natural Wonders
+Siliguri,96,6,Adventure Activities
+Siliguri,96,7,Wildlife Encounters
+Siliguri,96,8,Spiritual Experiences
+Siliguri,96,9,Festivals and Celebrations
+Siliguri,96,11,Culinary Adventures
+Siliguri,96,12,Recreational Parks
+Siliguri,96,13,Scenic Views
+Siliguri,96,17,Family-Friendly Activities
+Gangtok,97,3,Cultural Hotspots
+Gangtok,97,4,Historical Journeys
+Gangtok,97,5,Natural Wonders
+Gangtok,97,6,Adventure Activities
+Gangtok,97,7,Wildlife Encounters
+Gangtok,97,8,Spiritual Experiences
+Gangtok,97,9,Festivals and Celebrations
+Gangtok,97,11,Culinary Adventures
+Gangtok,97,12,Recreational Parks
+Gangtok,97,13,Scenic Views
+Gangtok,97,17,Family-Friendly Activities
+Port Blair,98,3,Cultural Hotspots
+Port Blair,98,4,Historical Journeys
+Port Blair,98,5,Natural Wonders
+Port Blair,98,6,Adventure Activities
+Port Blair,98,7,Wildlife Encounters
+Port Blair,98,8,Spiritual Experiences
+Port Blair,98,9,Festivals and Celebrations
+Port Blair,98,11,Culinary Adventures
+Port Blair,98,12,Recreational Parks
+Port Blair,98,13,Scenic Views
+Port Blair,98,17,Family-Friendly Activities
+Chandigarh,99,3,Cultural Hotspots
+Chandigarh,99,4,Historical Journeys
+Chandigarh,99,5,Natural Wonders
+Chandigarh,99,6,Adventure Activities
+Chandigarh,99,7,Wildlife Encounters
+Chandigarh,99,8,Spiritual Experiences
+Chandigarh,99,9,Festivals and Celebrations
+Chandigarh,99,11,Culinary Adventures
+Chandigarh,99,12,Recreational Parks
+Chandigarh,99,13,Scenic Views
+Chandigarh,99,17,Family-Friendly Activities
+Daman,100,1,Beach Escapes
+Daman,100,5,Natural Wonders
+Daman,100,6,Adventure Activities
+Daman,100,8,Spiritual Experiences
+Daman,100,9,Festivals and Celebrations
+Daman,100,13,Scenic Views
+Daman,100,16,Aquatic Adventures
+Karavatti,101,1,Beach Escapes
+Karavatti,101,5,Natural Wonders
+Karavatti,101,6,Adventure Activities
+Karavatti,101,8,Spiritual Experiences
+Karavatti,101,9,Festivals and Celebrations
+Karavatti,101,13,Scenic Views
+Karavatti,101,16,Aquatic Adventures
+Leh,102,2,Mountain Retreats
+Leh,102,3,Cultural Hotspots
+Leh,102,4,Historical Journeys
+Leh,102,5,Natural Wonders
+Leh,102,6,Adventure Activities
+Leh,102,8,Spiritual Experiences
+Leh,102,9,Festivals and Celebrations
+Leh,102,13,Scenic Views
+Leh,102,16,Aquatic Adventures
+Leh,102,17,Family-Friendly Activities
+Puducherry,103,1,Beach Escapes
+Puducherry,103,3,Cultural Hotspots
+Puducherry,103,5,Natural Wonders
+Puducherry,103,8,Spiritual Experiences
+Puducherry,103,9,Festivals and Celebrations
+Puducherry,103,12,Recreational Parks
+Puducherry,103,13,Scenic Views
+Puducherry,103,17,Family-Friendly Activities
+New Delhi,104,1,Beach Escapes
+New Delhi,104,2,Mountain Retreats
+New Delhi,104,3,Cultural Hotspots
+New Delhi,104,4,Historical Journeys
+New Delhi,104,5,Natural Wonders
+New Delhi,104,6,Adventure Activities
+New Delhi,104,7,Wildlife Encounters
+New Delhi,104,8,Spiritual Experiences
+New Delhi,104,9,Festivals and Celebrations
+New Delhi,104,10,Urban Nightlife
+New Delhi,104,11,Culinary Adventures
+New Delhi,104,12,Recreational Parks
+New Delhi,104,13,Scenic Views
+New Delhi,104,14,Cave Exploration
+New Delhi,104,15,Forest Activities
+New Delhi,104,17,Family-Friendly Activities

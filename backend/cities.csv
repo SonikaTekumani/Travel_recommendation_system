@@ -1,0 +1,105 @@
+City_ID,City_Name,State_ID,State_Name
+1,Visakhapatnam,1,Andhra Pradesh
+2,Vijayawada,1,Andhra Pradesh
+3,Guntur,1,Andhra Pradesh
+4,Tirupati,1,Andhra Pradesh
+5,Itanagar,2,Arunachal Pradesh
+6,Tawang,2,Arunachal Pradesh
+7,Ziro,2,Arunachal Pradesh
+8,Guwahati,3,Assam
+9,Kaziranga,3,Assam
+10,Shillong,3,Assam
+11,Tezpur,3,Assam
+12,Patna,4,Bihar
+13,Bodh Gaya,4,Bihar
+14,Nalanda,4,Bihar
+15,Rajgir,4,Bihar
+16,Raipur,5,Chhattisgarh
+17,Bhilai,5,Chhattisgarh
+18,Durg,5,Chhattisgarh
+19,Bilaspur,5,Chhattisgarh
+20,Panaji,6,Goa
+21,Vasco da Gama,6,Goa
+22,Old Goa,6,Goa
+23,Ahmedabad,7,Gujarat
+24,Vadodara,7,Gujarat
+25,Surat,7,Gujarat
+26,Gandhinagar,7,Gujarat
+27,Gurgaon,8,Haryana
+28,Faridabad,8,Haryana
+29,Panipat,8,Haryana
+30,Shimla,9,Himachal Pradesh
+31,Manali,9,Himachal Pradesh
+32,Dharamshala,9,Himachal Pradesh
+33,Kullu,9,Himachal Pradesh
+34,Srinagar,10,Jammu and Kashmir
+35,Jammu,10,Jammu and Kashmir
+36,Leh,10,Jammu and Kashmir
+37,Gulmarg,10,Jammu and Kashmir
+38,Ranchi,11,Jharkhand
+39,Jamshedpur,11,Jharkhand
+40,Dhanbad,11,Jharkhand
+41,Bengaluru,12,Karnataka
+42,Mysuru,12,Karnataka
+43,Mangalore,12,Karnataka
+44,Hampi,12,Karnataka
+45,Kochi,13,Kerala
+46,Thiruvananthapuram,13,Kerala
+47,Kozhikode,13,Kerala
+48,Munnar,13,Kerala
+49,Bhopal,14,Madhya Pradesh
+50,Indore,14,Madhya Pradesh
+51,Gwalior,14,Madhya Pradesh
+52,Jabalpur,14,Madhya Pradesh
+53,Mumbai,15,Maharashtra
+54,Pune,15,Maharashtra
+55,Nagpur,15,Maharashtra
+56,Aurangabad,15,Maharashtra
+57,Imphal,16,Manipur
+58,Loktak Lake,16,Manipur
+59,Aizawl,17,Mizoram
+60,Lunglei,17,Mizoram
+61,Kohima,18, Nagaland
+62,Dimapur,18,Nagaland
+63,Bhubaneswar,19,Odisha
+64,Puri,19,Odisha
+65,Konark,19,Odisha
+66,Cuttack,19,Odisha
+67,Chandigarh,20,Punjab
+68,Amritsar,20,Punjab
+69,Ludhiana,20,Punjab
+70,Patiala,20,Punjab
+71,Jaipur,21,Rajasthan
+72,Jodhpur,21,Rajasthan
+73,Udaipur,21,Rajasthan
+74,Jaisalmer,21,Rajasthan
+75,Gangtok,22,Sikkim
+76,Pelling,22,Sikkim
+77,Lachung,22,Sikkim
+78,Chennai,23,Tamil Nadu
+79,Madurai,23,Tamil Nadu
+80,Coimbatore,23,Tamil Nadu
+81,Ooty,23,Tamil Nadu
+82,Warangal,24,Telangana
+83,Hyderabad,24,Telangana
+84,Agartala,25,Tripura
+85,Udaipur,25,Tripura
+86,Dehradun,26,Uttarakhand
+87,Rishikesh,26,Uttarakhand
+88,Haridwar,26,Uttarakhand
+89,Mussoorie,26,Uttarakhand
+90,Lucknow,27,Uttar Pradesh
+91,Varanasi,27,Uttar Pradesh
+92,Agra,27,Uttar Pradesh
+93,Kanpur,27,Uttar Pradesh
+94,Kolkata,28,West Bengal
+95,Darjeeling,28,West Bengal
+96,Siliguri,28,West Bengal
+97,Gangtok,28,West Bengal
+98,Port Blair,29,Andaman and Nicobar Islands
+99,Chandigarh,30,Chandigarh
+100,Daman,31,Dadra and Nagar Haveli and Daman and Diu
+101,Kavaratti,32,Lakshadweep
+102,Leh,33,Ladakh
+103,Puducherry,34,Puducherry
+104,New Delhi,35,Delhi

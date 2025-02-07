@@ -1,0 +1,183 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    margin-top: 56px; /* Offset for fixed navbar */
+    background-image: url('https://blog-content.ixigo.com/wp-content/uploads/2019/08/blogpmmodi1.jpg'); /* Replace with your image's path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+h1, p {
+    color: #1f0303;
+}
+
+/* Navbar Styles */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar-brand i, .nav-link i {
+    margin-right: 5px;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover i, .nav-link:hover i {
+    transform: rotate(20deg);
+}
+
+/* Hero Section */
+.hero {
+    background-image:url('1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+/* Form Styles */
+main {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* Button Styles */
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+}
+
+/* Custom Checkbox Styles */
+#placeTypesCheckboxes .col-md-4 {
+    margin-bottom: 15px;
+}
+
+#placeTypesCheckboxes input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Results Section */
+#results {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#results h4 {
+    margin-bottom: 15px;
+}
+
+#results ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#results ul li {
+    font-size: 1.1rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    color: #555;
+}
+
+/* Animation for Form Elements (Optional) */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-on-scroll {
+    animation: fadeInUp 0.6s ease-in-out;
+}
+
+.animate-on-scroll:nth-child(odd) {
+    animation-delay: 0.2s;
+}
+
+.animate-on-scroll:nth-child(even) {
+    animation-delay: 0.4s;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .navbar .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        padding: 10px 15px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+}

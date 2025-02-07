@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Trip - Travel Recommendation System </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="plan.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="https://jssateb.ac.in/assets/images/logo/jssate.png" alt="Logo" style="height: 40px; margin-right: 10px;"><i class="fas fa-globe"></i>Travel Recommendation System</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="plan.html"><i class="fas fa-plane-departure"></i> Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container text-center">
+            <h1 class="display-4">Plan Your Perfect Journey</h1>
+            <p class="lead">Embark on the adventure you've always dreamed of</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <form id="detailedTripForm" class="animate-on-scroll">
+            <div class="form-group">
+                <label for="budget">Budget (in INR)</label>
+                <input type="number" class="form-control" id="budget" required min="0">
+            </div>
+            <div class="form-group">
+                <label for="duration">Duration (in days)</label>
+                <input type="number" class="form-control" id="duration" required min="1">
+            </div>
+            <div class="form-group">
+                <label>Types of Places</label>
+                <div id="placeTypesCheckboxes" class="row"></div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg">Find Matching Cities</button>
+        </form>
+        <div id="results" class="mt-4" style="display: none;"></div>
+    </main>
+
+
+    <!-- JS Libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Full version -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="plan.js"></script>
+</body>
+</html>
