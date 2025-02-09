@@ -1,4 +1,4 @@
 Authors:-
-Sonika Tekumani (backend)
+Sonika Tekumani (backend/frontend)
 Sowrabh Shetty (frontend)
 Sujal HR (backend)
