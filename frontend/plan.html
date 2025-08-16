@@ -1,64 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plan Your Trip - Travel Recommendation System </title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="plan.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Plan Your Trip</title>
+
+  <!-- Bootstrap (optional, remove if not used) -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+
+  <link rel="stylesheet" href="plan.css" />
+  <style>
+    /* Small extras to ensure layout works even if Bootstrap not loaded */
+    .container { max-width: 960px; margin: 0 auto; padding: 20px; }
+    .hidden { display: none; }
+    #loadingIndicator { padding: 12px; background: #fffbe6; border: 1px solid #ffe58f; border-radius: 6px; margin-top: 16px; }
+    .card { border: 1px solid #eee; border-radius: 8px; padding: 16px; margin-bottom: 16px; background: #fff; }
+  </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="https://jssateb.ac.in/assets/images/logo/jssate.png" alt="Logo" style="height: 40px; margin-right: 10px;"><i class="fas fa-globe"></i>Travel Recommendation System</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="plan.html"><i class="fas fa-plane-departure"></i> Get Started</a>
-                    </li>
-                </ul>
-            </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Travel Recommendation System</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><span class="nav-link active">Plan</span></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container mt-5">
+    <h1 class="mb-3">Plan your trip</h1>
+    <p class="text-muted">Choose budget, duration, and the types of places of interest. We’ll suggest cities that match.</p>
+
+    <form id="detailedTripForm" class="animate-on-scroll">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label for="budget" class="form-label">Budget</label>
+          <input type="number" class="form-control" id="budget" min="0" placeholder="e.g. 15000" required />
         </div>
-    </nav>
-
-    <header class="hero">
-        <div class="container text-center">
-            <h1 class="display-4">Plan Your Perfect Journey</h1>
-            <p class="lead">Embark on the adventure you've always dreamed of</p>
+        <div class="col-md-6">
+          <label for="duration" class="form-label">Duration (days)</label>
+          <input type="number" class="form-control" id="duration" min="1" placeholder="e.g. 4" required />
         </div>
-    </header>
+      </div>
 
-    <main class="container my-5">
-        <form id="detailedTripForm" class="animate-on-scroll">
-            <div class="form-group">
-                <label for="budget">Budget (in INR)</label>
-                <input type="number" class="form-control" id="budget" required min="0">
-            </div>
-            <div class="form-group">
-                <label for="duration">Duration (in days)</label>
-                <input type="number" class="form-control" id="duration" required min="1">
-            </div>
-            <div class="form-group">
-                <label>Types of Places</label>
-                <div id="placeTypesCheckboxes" class="row"></div>
-            </div>
-            <button type="submit" class="btn btn-primary btn-lg">Find Matching Cities</button>
-        </form>
-        <div id="results" class="mt-4" style="display: none;"></div>
-    </main>
+      <div class="mt-4">
+        <label class="form-label">Place types</label>
+        <div id="placeTypesCheckboxes" class="row">
+          <!-- Example static checkboxes: replace values with your Type_IDs -->
+          <div class="col-md-4">
+            <label><input type="checkbox" name="experience" value="1" /> Beach</label>
+          </div>
+          <div class="col-md-4">
+            <label><input type="checkbox" name="experience" value="2" /> Mountains</label>
+          </div>
+          <div class="col-md-4">
+            <label><input type="checkbox" name="experience" value="3" /> Culture</label>
+          </div>
+          <div class="col-md-4">
+            <label><input type="checkbox" name="experience" value="4" /> History</label>
+          </div>
+          <div class="col-md-4">
+            <label><input type="checkbox" name="experience" value="5" /> Wildlife</label>
+          </div>
+          <div class="col-md-4">
+            <label><input type="checkbox" name="experience" value="6" /> Adventure</label>
+          </div>
+          <!-- Add more as needed to match your CSV Type_IDs -->
+        </div>
+      </div>
 
+      <button type="submit" class="btn btn-primary mt-4">Find cities</button>
+      <div id="loadingIndicator" class="hidden mt-3">Fetching recommendations…</div>
+    </form>
 
-    <!-- JS Libraries -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Full version -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="plan.js"></script>
+    <section id="results" class="mt-4">
+      <!-- Results will render here -->
+    </section>
+  </main>
+
+  <footer class="container mt-5 mb-4">
+    <p class="text-muted small">Data-driven suggestions based on your inputs.</p>
+  </footer>
+
+  <script src="plan.js"></script>
 </body>
 </html>
