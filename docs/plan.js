@@ -2,12 +2,15 @@
 const API_BASE =
   (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
     ? 'http://localhost:4001'
-    : 'https://travel-recommendation-system-47mw.onrender.com/'; // <-- replace with your deployed FastAPI URL
+    : 'https://travel-recommendation-system-47mw.onrender.com';
 
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('detailedTripForm');
   const resultsDiv = document.getElementById('results');
   const loadingEl = document.getElementById('loadingIndicator');
+
+  // Debug: confirm the exact URL being called (remove after testing)
+  console.log('API_BASE:', API_BASE);
 
   function getSelectedExperienceTypeIds() {
     return Array.from(document.querySelectorAll('input[name="experience"]:checked'))
@@ -16,10 +19,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   async function fetchRecommendations(budget, duration, experienceTypes) {
-    const res = await fetch(`${API_BASE}/api/cities`, {
+    const url = `${API_BASE}/api/cities`;
+    // Debug: show full request URL
+    console.log('Requesting:', url);
+
+    const res = await fetch(url, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      // The backend expects these exact keys
       body: JSON.stringify({
         budget: Number(budget),
         duration: Number(duration),
@@ -27,7 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }),
     });
 
-    // Handle common error formats from FastAPI
     if (!res.ok) {
       let detail = `Request failed: ${res.status}`;
       try {
@@ -51,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const cards = list.map(city => {
       const types = (city.matching_types || []).join(', ');
-      const score = (city.match_score ?? 0).toFixed(2);
+      const score = Number.isFinite(city.match_score) ? city.match_score.toFixed(2) : '0.00';
       const name = city.name || 'Unknown';
       return `
         <div class="card">
@@ -65,15 +70,15 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function setLoading(state) {
-    loadingEl.classList.toggle('hidden', !state);
+    if (loadingEl) loadingEl.classList.toggle('hidden', !state);
   }
 
   function validateInputs(budget, duration, experienceTypes) {
-    if (!budget || Number(budget) < 0) return 'Please enter a valid budget.';
-    if (!duration || Number(duration) <= 0) return 'Please enter a valid duration (days).';
+    if (budget === '' || Number(budget) < 0) return 'Please enter a valid budget.';
+    if (duration === '' || Number(duration) <= 0) return 'Please enter a valid duration (days).';
     if (!experienceTypes.length) return 'Please select at least one place type.';
     return null;
-    }
+  }
 
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
