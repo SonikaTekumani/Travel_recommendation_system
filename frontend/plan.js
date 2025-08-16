@@ -2,7 +2,7 @@
 const API_BASE =
   (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
     ? 'http://localhost:4001'
-    : 'https://YOUR-BACKEND-URL'; // <-- replace with your deployed FastAPI URL
+    : 'https://travel-recommendation-system-47mw.onrender.com/'; // <-- replace with your deployed FastAPI URL
 
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('detailedTripForm');
