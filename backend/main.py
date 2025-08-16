@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from app.models import CitiesRequest, CityResult
-from app.services import get_dataframes, build_type_name_map
+from models import CitiesRequest, CityResult
+from services import get_dataframes, build_type_name_map
 import pandas as pd
 
 app = FastAPI(title="Travel Recommender API", version="0.1.0")
